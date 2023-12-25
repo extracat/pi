@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 app = Flask(__name__)
 
-file_path = './data/pi_dec_1m.txt'
+file_path = './data/pi_dec_10b.txt'
 
 @app.route('/find_position', methods=['GET'])
 def find_position_api():
