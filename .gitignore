@@ -4,6 +4,7 @@
 #.pnp.*
 
 /data
+/pi
 
 # dependencies
 /node_modules
